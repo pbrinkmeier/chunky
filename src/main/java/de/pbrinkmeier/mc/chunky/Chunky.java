@@ -70,7 +70,18 @@ public final class Chunky extends JavaPlugin implements Listener {
         );
         List<Material> specials = Arrays.asList(
             Material.SPIDER_EYE,
-            Material.GUNPOWDER
+            Material.GUNPOWDER,
+            Material.BONE,
+            Material.FLINT,
+            Material.QUARTZ,
+            Material.ROTTEN_FLESH,
+            Material.REDSTONE_BLOCK,
+            Material.IRON_NUGGET,
+            Material.COPPER_INGOT,
+            Material.PUFFERFISH,
+            Material.PUMPKIN,
+            Material.APPLE,
+            Material.LAPIS_LAZULI
         );
 
         NamespacedKey recipeKey = new NamespacedKey(plugin, "ender_pearl");
