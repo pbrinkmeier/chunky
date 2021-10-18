@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import org.bukkit.Location;
 import org.bukkit.Material;
+import org.bukkit.Sound;
 import org.bukkit.NamespacedKey;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -46,6 +47,8 @@ public final class Chunky extends JavaPlugin implements Listener {
 
                     if (!oldLocation.getChunk().equals(player.getLocation().getChunk())) {
                         player.teleport(oldLocation);
+                        // Play sound
+                        player.playSound(oldLocation, Sound.ENTITY_VILLAGER_AMBIENT, 1.F, 1.F);
                     }
                 }
                 plugin.saveOldPosition(player);
