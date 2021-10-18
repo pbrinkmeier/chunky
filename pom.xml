@@ -4,7 +4,7 @@
   <groupId>de.pbrinkmeier.mc.chunky</groupId>
   <artifactId>Chunky</artifactId>
   <packaging>jar</packaging>
-  <version>1.1.0</version>
+  <version>1.2.0</version>
   <name>chunky</name>
   <!-- TODO: Create tiny website -->
   <url>http://maven.apache.org</url>
@@ -32,6 +32,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.3.2</version>
         <configuration>
           <source>1.8</source>
           <target>1.8</target>
